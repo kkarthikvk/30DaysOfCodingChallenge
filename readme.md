@@ -1,3 +1,1 @@
-Wooray... 
-Starting my 30 Days of coding challenge from Dec 1 to Dec 30th.
 
