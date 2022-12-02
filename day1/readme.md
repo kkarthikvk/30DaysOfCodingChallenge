@@ -26,26 +26,28 @@ Approach 1:
 The straight forward approach. See the optimizing the approach later.
 
 psudo code:
-a = given_list
-b = []
-loop i,v1  through a:
-	prd = 1
-	loop j,v2 through a:
-		if i== j:
-			continue
-		else:
-			prd *= v2
-	b.append(prd)
+
+	a = given_list
+	b = []
+	loop i,v1  through a:
+		prd = 1
+		loop j,v2 through a:
+			if i== j:
+				continue
+			else:
+				prd *= v2
+		b.append(prd)
 
 Approach 2:
 Need to optimize the code. So instead looping twice will loop once.
 
 psudo code:
-import math
-a = given_list[]
-b = []
-loop i,v1 through a:
-	c = a[:i] + a[i+1]
-	prd = math.prod(c)
-	b.append(c)
+
+	import math
+	a = given_list[]
+	b = []
+	loop i,v1 through a:
+		c = a[:i] + a[i+1]
+		prd = math.prod(c)
+		b.append(c)
 
