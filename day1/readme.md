@@ -12,13 +12,13 @@ Example:
 
 [1,2,3,4] -> [24,12,8,6]
 
-1st index : 2*3*4
+1st index : 2X3X4
 
-2nd index : 1*3*4
+2nd index : 1X3X4
 
-3rd index : 1*2*4
+3rd index : 1X2X4
 
-4th index : 1*2*3
+4th index : 1X2X3
 
 Given condition all are positive Intergers.
 
